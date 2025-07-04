@@ -38,7 +38,7 @@ The architecture is modular and built around streamable, queryable, and event-dr
 - A FastAPI backend and TypeScript/React frontend
 
 ## Project Structure
-
+```
 f1-ai-copilot/
 ├── core_modules/
 │   ├── strategy_optimizer/
@@ -72,5 +72,5 @@ f1-ai-copilot/
 ├── requirements.txt
 ├── .env.example
 └── README.md
-
+```
 
