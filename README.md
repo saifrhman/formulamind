@@ -41,26 +41,36 @@ The architecture is modular and built around streamable, queryable, and event-dr
 
 f1-ai-copilot/
 ├── core_modules/
-│ ├── strategy_optimizer/
-│ ├── ghost_car_visualizer/
-│ ├── emotion_detection/
-│ ├── racing_line_generator/
-│ ├── rule_compliance_agent/
-│ ├── setup_optimizer/
-│ └── ...
+│   ├── strategy_optimizer/
+│   ├── ghost_car_visualizer/
+│   ├── emotion_detection/
+│   ├── racing_line_generator/
+│   ├── rule_compliance_agent/
+│   ├── setup_optimizer/
+│   ├── reliability_forecaster/
+│   ├── driver_compatibility/
+│   ├── competitor_intel/
+│   ├── sim_to_real_engine/
+│   ├── logistics_optimizer/
+│   ├── sponsor_tracker/
+│   └── team_radio_agent/
+│
 ├── data_pipeline/
-│ ├── kafka/
-│ ├── airbyte/
-│ └── dbt/
-├── dashboard/ # FastAPI + React dashboard
-├── llm_interface/ # LangChain + Qdrant-based RAG system
-├── scripts/
-├── notebooks/
-├── tests/
-├── config/
+│   ├── kafka/
+│   ├── airbyte/
+│   └── dbt/
+│
+├── dashboard/                # FastAPI backend + React frontend
+├── llm_interface/            # LangChain + Qdrant-based retrieval + agent tools
+├── scripts/                  # Utility scripts and orchestration
+├── notebooks/                # Jupyter notebooks for experimentation
+├── tests/                    # Unit/integration tests
+├── config/                   # Global configuration files
+│
 ├── Dockerfile
 ├── docker-compose.yaml
 ├── requirements.txt
+├── .env.example
 └── README.md
 
 
